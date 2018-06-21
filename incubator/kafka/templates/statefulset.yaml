@@ -94,7 +94,7 @@ spec:
               - sh
               - -ec
               - /usr/bin/jps | /bin/grep -q SupportedKafka
-          initialDelaySeconds: 30
+          initialDelaySeconds: 300
           timeoutSeconds: 5
         readinessProbe:
           tcpSocket:
